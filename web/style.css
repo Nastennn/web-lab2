@@ -1,0 +1,74 @@
+body{
+    height: auto;
+}
+
+header{
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+header p{
+    font-size: 15px;
+    line-height: 10px;
+    font-family: "Copperplate Gothic Light", Papyrus, fantasy;
+}
+
+.chosen-options{
+    width:30%;
+
+}
+
+.coordinate{
+    font-family: Verdana, sans-serif;
+}
+
+.response{
+    background-color: wheat;
+}
+iframe{
+    width: 90%;
+    height: 300%;
+    border: none;
+}
+
+.warning{
+    color: firebrick;
+}
+.warning-text{
+@extend .warning;
+    border-color: firebrick;
+}
+
+input[type="submit"],input[type="reset"]{
+    border-radius: 4px;
+    background-color: cadetblue;
+    color: black;
+    border: none;
+    padding: 5px;
+}
+
+input:hover{
+    background-color: cadetblue;
+}
+
+#y, #r, #x{
+    padding: 2%;
+    width: 100%;
+
+}
+p:first-child{
+    color: darkslategray;
+}
+#clock{
+    color: cornflowerblue;
+}
+
+td{
+    border: black 1px solid;
+}
+
+.block{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
